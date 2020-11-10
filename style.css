@@ -302,3 +302,15 @@ h2
 {
 	margin-top: 15px;
 }
+
+#a
+{
+    text-decoration: none;
+    color: khaki;
+}
+
+#a:hover
+{
+    text-decoration: none;
+    color: rgb(197, 177, 0);
+}
