@@ -16,7 +16,7 @@ h1.logo
    text-transform: uppercase;
    letter-spacing: 5px;
    margin-top: 50px;
-   margin-bottom: 40px;
+   margin-bottom: 40px;   
 }
 
 #topnav
@@ -80,6 +80,16 @@ h1
 {
     display: inline-block;
     margin-top: 10px;
+  
+}
+
+.author:hover
+{
+    display: inline-block;
+    margin-top: 10px;
+    transform: rotate(360deg);
+    transform: translate(20px,-20px);
+    transition: transform 1s; 
 }
 
 .author a
