@@ -303,6 +303,14 @@ h2
 	margin-top: 15px;
 }
 
+a
+{
+    text-decoration: none;
+    color: rgba(228, 229, 238, 0.952);
+}
+
+
+}
 #a
 {
     text-decoration: none;
