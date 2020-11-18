@@ -1,0 +1,261 @@
+*{box-sizing: border-box;}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    
+ }
+
+body
+{
+    background:burlywood;
+    background-image: url(img/redmatrix.jpg);
+    background-repeat: repeat;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;    
+}
+
+header
+{
+    width: 80%;
+    height: 180px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(img/bluematrix.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-style: groove;
+    border-color: rgb(143, 116, 116);
+    color: #CC0000;
+}
+
+header:hover
+{
+    width: 80%;
+    height: 180px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(img/bluematrix.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-style: groove;
+    border-color: rgb(168, 0, 0);
+    color: #CC0000;
+}
+
+
+.headh1
+{
+    color:#FF0000;
+    margin-top: 50PX;
+}
+
+.logo1
+{
+    width: 20%;
+    height: 100%;
+    text-align: center; 
+    background-image: url(img/plaster.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-style: groove ;
+    border-color: rgb(168, 0, 0);    
+    color: #FF0066;
+    padding-top:70px;
+    float: left; 
+  
+}
+
+.logo1:hover
+{
+    transition-duration: 3s;
+    transform: rotate(360deg)
+}
+
+nav
+{
+    color: gold;
+    text-align: center;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+main
+{
+    width: 80%;
+    background-color: khaki;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+article
+{
+    color:white;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: left;
+    border: groove;
+    border-color: indianred;
+    float: left;
+    width: 80%;
+    padding-left: 30px;
+    padding-right: 30px;
+    background:burlywood;
+    background-image: url(img/paint3.jpg);
+    background-repeat: repeat;
+    background-size: 100%;
+   
+}
+
+aside
+{
+    color: white;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    border: groove;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background-image: url(img/zloto.jpg) ;
+    background-repeat: repeat;
+    background-size: 100%;
+    
+}
+
+
+ol > li 
+{
+
+    margin-left: 30px;
+    list-style: none;
+    letter-spacing: 35px;
+    display: inline-block;
+    
+}
+
+ol > li:hover 
+{
+
+    margin-left: 30px;
+    list-style: none;
+    letter-spacing: 35px;
+    display: inline-block;
+    transform: scale(1.5);
+    transition: 1S;   
+}
+
+
+a
+{
+    color:#1E90FF;
+    text-decoration: none;
+    letter-spacing: 5px;
+    color: #FFFF00;
+    font-weight: 900px;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 33px;
+   
+}
+
+a:hover
+{
+    color: #008b2a;
+    text-shadow: 5px 5px 5px;
+    transition-duration: 1s;
+    
+}
+
+footer
+{
+    background-color: black;
+	bottom:0px;
+	width:80%;
+    height:50px;
+    margin-left: 10%;
+    margin-right: 20%;
+    color: #1E90FF;
+    text-align: center;
+    padding: 10px;
+    border: 2px;
+    border-style: groove;
+    border-color:#FF4500;
+}
+
+footer:hover
+{
+    color: #ecfc11b2;
+    background-color: rgb(73, 6, 6);
+}
+
+.kolor
+{
+    text-align: center;
+}
+
+.art
+{
+    color:black;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#tekst-glowny
+{
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 3px;
+   
+}
+
+.podart1
+{
+    color: black;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding-bottom: 5px;
+    margin-bottom: 3px;
+    letter-spacing: 2px;
+}
+
+#s1
+{
+    color: red;
+}
+
+#s2
+{
+    color: green;
+}
+
+#s3
+{
+    color: blue;
+}
+
+#s4
+{
+    color: magenta;
+}
+
+#kalejdoskop:hover
+{
+    color: crimson;
+    text-shadow:yellow 5px 8px 5px ;
+    transition-duration: 2s;
+    transform: rotate(360deg); 
+}
+
